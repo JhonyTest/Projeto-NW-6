@@ -56,7 +56,7 @@
         text-align: center;
 
         > img {
-            align-items: center;
+            align-items: center;            
         }
 
         h2 {
@@ -83,16 +83,16 @@
                 width: 100%;
             }
         }
-            p{
-                font-size: 14px;
-                color: #737380;
-                margin-top: 16px
+        p{
+            font-size: 14px;
+            color: #737380;
+            margin-top: 16px;
 
-                a{
-                    color: #e559f9;
-                }
-                  
+            a{
+                color: #e559f9;
             }
+                
+        }
     }
 
     .create-room{
