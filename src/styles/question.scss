@@ -1,5 +1,5 @@
 .question {
-    background: #fefefe;
+    background: #e1eec3;
     border-radius: 8px;
     box-shadow: 0 2px 12px rga(0, 0, 0, 0.04);
     padding: 24px;
@@ -7,6 +7,21 @@
     & + .question {
         margin-top: 8px;
     }
+
+    &.answered {
+        background: #f05053;
+    }
+
+    &.highlighted {
+        background: #fffcdc;
+        border: 1px solid #f05053;
+
+        footer .user-info span {
+            color:#29292e, 100%
+        }
+    }
+
+
 
     p {
         color: #29292e;
@@ -32,6 +47,12 @@
                     color: #737380;
                     font-size: 14px;
                 }
+            }
+
+            > div {
+                display: flex;
+                gap: 16px;
+
             }
 
             button {
